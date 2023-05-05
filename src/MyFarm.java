@@ -64,12 +64,16 @@ public class MyFarm {
     }
 
     public void averageNumberofPlants(){
-        int sumOfPlants = 0;
+        int numOfPlants = 0;
+        int totalPlants = 0;
         for (int e = 0; e < grid.length; e++) {
             for (int c = 0; c < grid[e].length; c++) {
-      System.out.println();
+numOfPlants += grid [e][c].NumberOfPlants;
+totalPlants = e*c;
             }
-
+System.out.println("the average number of plants is" + numOfPlants/totalPlants);
         }
     }
+
+
 }

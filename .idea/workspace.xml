@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba053552-e5d6-47d4-89f0-09df376fe6d3" name="Changes" comment="5/5/23">
+    <list default="true" id="ba053552-e5d6-47d4-89f0-09df376fe6d3" name="Changes" comment="5/8/23">
+      <change afterPath="$PROJECT_DIR$/src/MyFarmArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RunMyFarm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/MyFarm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MyFarm.java" afterDir="false" />
     </list>
@@ -38,6 +40,20 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration name="RunMyFarm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RunMyFarm" />
+      <module name="Farmville2D" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.RunMyFarm" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -75,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1683306383261</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="5/8/23">
+      <created>1683569592223</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1683569592223</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +117,7 @@
     <MESSAGE value="committ 2" />
     <MESSAGE value="5/2/23" />
     <MESSAGE value="5/5/23" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/5/23" />
+    <MESSAGE value="5/8/23" />
+    <option name="LAST_COMMIT_MESSAGE" value="5/8/23" />
   </component>
 </project>

@@ -1,9 +1,6 @@
 import javax.naming.Name;
 
 public class MyFarm {
-    public static void main(String[] arge) {
-        MyFarm charlie = new MyFarm();
-    }
 
     public Plot[][] grid;
 

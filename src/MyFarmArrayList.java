@@ -31,6 +31,8 @@ addSunflower();
 printPlantNames();
 addCorn();
 printPlantNames();
+tomatoLocations();
+totalCarrots();
     }
 
     public void totalPlants() {
@@ -66,6 +68,26 @@ printPlantNames();
         row.add(3, corn);
 
     }
+    public void tomatoLocations(){
+    for(int m = 0; m<row.size(); m++){
+        if (row.get(m).PlantName.equals("tomato")){
+            System.out.println(m);
+        }
+    }
+    }
+    public void totalCarrots(){
+       int numberOfCarrots =0;
+       for(Plot b:row){
+          if(b.PlantName.equals("carrot")){
+              numberOfCarrots+= b.NumberOfPlants;
+          }
+       }
+       System.out.println("total number of carrots is " + numberOfCarrots);
+    }
+    public void averageNumberofPlants(){
+        
+    }
+
 
 }
 

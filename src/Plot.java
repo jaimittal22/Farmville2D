@@ -23,7 +23,7 @@ public class Plot {
         }
     }
     public void printPlot(){
-        System.out.println("the plot has " + NumberOfPlants + " of " + PlantName + " and  ");
+        System.out.println("the plot has " + NumberOfPlants + " of " + PlantName + " and  " + NeedsWater);
     }
 }
 
